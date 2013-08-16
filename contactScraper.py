@@ -227,7 +227,7 @@ for url in urls:
 	
                         						
     # write to output            
-    outputFile.write ('"' + (url[0]) + '","' + contact_name + '\n')
+    outputFile.write ('"' + (url[0]) + '","' + contact_name + '"' + '\n')
 
 outputFile.close() #end of loop   
 
